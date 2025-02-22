@@ -520,9 +520,18 @@
             "label": "Lowpower",
             "content": [
               {
-                "label": "Sleep Time(ms)",
-                "type": "range",
-                "options": [0, 65535],
+                "label": "Sleep Time",
+                "type": "dropdown",
+                "options": [
+                  ["Do Not Sleep", 0],
+                  ["1min", 1],
+                  ["2min", 2],
+                  ["3min", 3],
+                  ["4min", 4],
+                  ["5min", 5],
+                  ["15min", 6],
+                  ["30min", 7]
+                ],
                 "content": ["id_Sleep_Time", 3, 1]
               }
             ]
