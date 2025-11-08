@@ -95,7 +95,8 @@
                   ["TRICOLOR_CHASE", 56],
                   ["ICU", 57],
                   ["TOUCH_BREATH", 58],
-                  ["CUSTOM", 59]
+                  ["CHECKER", 59],
+                  ["CUSTOM", 60]
                 ],
                 "content": ["id_LED_Style", 1, 1]
               }, {
