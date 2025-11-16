@@ -135,6 +135,66 @@
                 "content": ["id_Sleep_Time", 2, 1]
               }
             ]
+          },
+          {
+            "label": "SOCD",
+            "content": [
+              {
+                "label": "SOCD Group1 Key1",
+                "type": "keycode",
+                "content": ["id_SOCD_g1k1", 3, 1]
+              }, {
+                "label": "SOCD Group1 Key2",
+                "type": "keycode",
+                "content": ["id_SOCD_g1k2", 3, 2]
+              }, {
+                "label": "SOCD Group1 Mode",
+                "type": "dropdown",
+                "options": [
+                  ["None", 0],
+                  ["The first key takes precedence", 1],
+                  ["The second key takes precedence", 2],
+                  ["Neutral mode", 3]
+                ],
+                "content": ["id_SOCD_g1mode", 3, 3]
+              }, {
+                "label": "SOCD Group2 Key1",
+                "type": "keycode",
+                "content": ["id_SOCD_g2k1", 3, 4]
+              }, {
+                "label": "SOCD Group2 Key2",
+                "type": "keycode",
+                "content": ["id_SOCD_g2k2", 3, 5]
+              }, {
+                "label": "SOCD Group2 Mode",
+                "type": "dropdown",
+                "options": [
+                  ["None", 0],
+                  ["The first key takes precedence", 1],
+                  ["The second key takes precedence", 2],
+                  ["Neutral mode", 3]
+                ],
+                "content": ["id_SOCD_g2mode", 3, 6]
+              }, {
+                "label": "SOCD Group3 Key1",
+                "type": "keycode",
+                "content": ["id_SOCD_g3k1", 3, 7]
+              }, {
+                "label": "SOCD Group3 Key2",
+                "type": "keycode",
+                "content": ["id_SOCD_g3k2", 3, 8]
+              }, {
+                "label": "SOCD Group3 Mode",
+                "type": "dropdown",
+                "options": [
+                  ["None", 0],
+                  ["The first key takes precedence", 1],
+                  ["The second key takes precedence", 2],
+                  ["Neutral mode", 3]
+                ],
+                "content": ["id_SOCD_g3mode", 3, 9]
+              }
+            ]
           }
         ]
       }
